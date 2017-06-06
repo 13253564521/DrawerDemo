@@ -15,6 +15,9 @@
 		449B3DC01EE6890800661FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449B3DBE1EE6890800661FA7 /* LaunchScreen.storyboard */; };
 		449B3DCB1EE6890900661FA7 /* DrawerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B3DCA1EE6890900661FA7 /* DrawerDemoTests.m */; };
 		449B3DD61EE6890900661FA7 /* DrawerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B3DD51EE6890900661FA7 /* DrawerDemoUITests.m */; };
+		449B3DE81EE6899000661FA7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B3DE71EE6899000661FA7 /* MainViewController.m */; };
+		449B3DEB1EE698F100661FA7 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B3DEA1EE698F100661FA7 /* LeftMenuViewController.m */; };
+		449B3DEE1EE6991500661FA7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B3DED1EE6991500661FA7 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		449B3DD11EE6890900661FA7 /* DrawerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		449B3DD51EE6890900661FA7 /* DrawerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerDemoUITests.m; sourceTree = "<group>"; };
 		449B3DD71EE6890900661FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449B3DE61EE6899000661FA7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		449B3DE71EE6899000661FA7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		449B3DE91EE698F100661FA7 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		449B3DEA1EE698F100661FA7 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		449B3DEC1EE6991500661FA7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		449B3DED1EE6991500661FA7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +110,13 @@
 		449B3DAF1EE6890800661FA7 /* DrawerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				449B3DE51EE6897600661FA7 /* Drawer */,
 				449B3DB31EE6890800661FA7 /* AppDelegate.h */,
 				449B3DB41EE6890800661FA7 /* AppDelegate.m */,
+				449B3DE91EE698F100661FA7 /* LeftMenuViewController.h */,
+				449B3DEA1EE698F100661FA7 /* LeftMenuViewController.m */,
+				449B3DEC1EE6991500661FA7 /* HomeViewController.h */,
+				449B3DED1EE6991500661FA7 /* HomeViewController.m */,
 				449B3DB61EE6890800661FA7 /* ViewController.h */,
 				449B3DB71EE6890800661FA7 /* ViewController.m */,
 				449B3DB91EE6890800661FA7 /* Main.storyboard */,
@@ -138,6 +152,15 @@
 				449B3DD71EE6890900661FA7 /* Info.plist */,
 			);
 			path = DrawerDemoUITests;
+			sourceTree = "<group>";
+		};
+		449B3DE51EE6897600661FA7 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				449B3DE61EE6899000661FA7 /* MainViewController.h */,
+				449B3DE71EE6899000661FA7 /* MainViewController.m */,
+			);
+			path = Drawer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +299,9 @@
 				449B3DB81EE6890800661FA7 /* ViewController.m in Sources */,
 				449B3DB51EE6890800661FA7 /* AppDelegate.m in Sources */,
 				449B3DB21EE6890800661FA7 /* main.m in Sources */,
+				449B3DEB1EE698F100661FA7 /* LeftMenuViewController.m in Sources */,
+				449B3DE81EE6899000661FA7 /* MainViewController.m in Sources */,
+				449B3DEE1EE6991500661FA7 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
